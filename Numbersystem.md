@@ -1,8 +1,4 @@
-# Number Systems - Beginner Friendly Documentation
-
-This guide will help you understand number systems and how to convert between them. Everything is explained simply so everyone can understand.
-
----
+# Number Systems
 
 ## 1. What Are Number Systems?
 A number system is a way to represent numbers. Different number systems use different bases:
