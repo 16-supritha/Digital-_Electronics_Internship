@@ -216,3 +216,200 @@ Example: `7` = `111`, `4` = `100`
 - Number systems allow us to **store, process, and communicate** data efficiently in digital circuits.
 - **Octal and Hexadecimal** make it easier for humans to read and write large binary numbers.
 - Using number systems helps in **designing hardware** and **writing software** for digital systems.
+- 
+- # Logic Gates 
+
+
+---
+
+## 1. AND Gate
+
+**Function:**
+The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a logical multiplication operation.
+
+**Symbol:**
+
+
+
+**Boolean Function:**
+```
+Output = A * B
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   1    |
+
+**Applications:**
+- Digital circuits
+- Multiplication operations in ALUs
+- Input validation
+
+---
+
+## 2. OR Gate
+
+**Function:**
+The OR gate outputs HIGH (1) if at least one input is HIGH. It performs a logical addition operation.
+
+**Symbol:**
+```
+  A ----|>   
+        |>O---- Output (A OR B)
+  B ----|>   
+```
+
+**Boolean Function:**
+```
+Output = A + B
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   1    |
+| 1 | 0 |   1    |
+| 1 | 1 |   1    |
+
+**Applications:**
+- Alarm systems
+- Logic decision making
+- Enable signal generation
+
+---
+
+## 3. NOT Gate
+
+**Function:**
+The NOT gate, or inverter, outputs the opposite of the input signal. It changes 0 to 1 and 1 to 0.
+
+**Symbol:**
+```
+  A ----|>O---- Output (NOT A)
+```
+
+**Boolean Function:**
+```
+Output = A'
+```
+
+**Truth Table:**
+| A | Output |
+|---|--------|
+| 0 |   1    |
+| 1 |   0    |
+
+**Applications:**
+- Signal inversion
+- Control signal logic
+
+---
+
+## 4. NAND Gate
+
+**Function:**
+The NAND gate gives the opposite output of an AND gate. It outputs LOW only when all inputs are HIGH.
+
+**Boolean Function:**
+```
+Output = (A * B)'
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   1    |
+| 0 | 1 |   1    |
+| 1 | 0 |   1    |
+| 1 | 1 |   0    |
+
+**Applications:**
+- Universal gate
+- Memory circuits (latches)
+
+---
+
+## 5. NOR Gate
+
+**Function:**
+The NOR gate gives the opposite output of an OR gate. It outputs HIGH only when all inputs are LOW.
+
+**Boolean Function:**
+```
+Output = (A + B)'
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   1    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   0    |
+
+**Applications:**
+- Oscillators
+- Control logic
+
+---
+
+## 6. XOR Gate
+
+**Function:**
+The XOR gate outputs HIGH when the number of HIGH inputs is odd. It’s used in circuits where bit comparison is needed.
+
+**Boolean Function:**
+```
+Output = A ⊕ B
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   1    |
+| 1 | 0 |   1    |
+| 1 | 1 |   0    |
+
+**Applications:**
+- Parity checks
+- Adders (half adder)
+
+---
+
+## 7. XNOR Gate
+
+**Function:**
+The XNOR gate outputs HIGH when the inputs are the same. It is the complement of the XOR gate.
+
+**Boolean Function:**
+```
+Output = (A ⊕ B)'
+```
+
+**Truth Table:**
+| A | B | Output |
+|---|---|--------|
+| 0 | 0 |   1    |
+| 0 | 1 |   0    |
+| 1 | 0 |   0    |
+| 1 | 1 |   1    |
+
+**Applications:**
+- Equality detection
+- Comparator circuits
+
+---
+
+## License
+MIT License
+
+
+I've added 2–3 line descriptions of each gate's function. Let me know if you'd like to include logic gate simulation code in Python, digital design languages, or interactive visuals.
+
+
