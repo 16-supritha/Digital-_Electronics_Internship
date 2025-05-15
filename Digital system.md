@@ -230,6 +230,8 @@ The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a l
 **Symbol:**
 
 
+![AND Gate](https://github.com/16-supritha/Digital-_Electronics_Internship/blob/b603f1f72208815c54bad21a5cb0b3010dff0d65/and%20gate.png)
+
 
 **Boolean Function:**
 ```
@@ -290,7 +292,7 @@ The NOT gate, or inverter, outputs the opposite of the input signal. It changes 
 
 **Symbol:**
 ```
-  A ----|>O---- Output (NOT A)
+![NOT Gate](https://github.com/16-supritha/Digital-_Electronics_Internship/blob/b603f1f72208815c54bad21a5cb0b3010dff0d65/not%20gate.png)
 ```
 
 **Boolean Function:**
