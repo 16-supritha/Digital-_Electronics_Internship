@@ -107,7 +107,9 @@ Example:
 - **Each position** = power of 16  
 
 Example:  
-`2F` = (2×16^1) + (15×16^0) 
+`2F` 
+2 -> = (2×16^1) + 
+E -> = (15×16^0) 
 = 32 + 15 
 = **47 (Decimal)**
 
@@ -149,6 +151,8 @@ Example: 13
 4. Read remainders from bottom to top.
 
 Example: 254  
+
+
 254 ÷ 16 = 15 remainder 14 → `E`  
 15 ÷ 16 = 0 remainder 15 → `F`  
 **Hex: FE**
@@ -160,7 +164,10 @@ Example: 254
 2. Multiply each digit by 16^position.
 3. Add the results.
 
-Example: `1A` = (1×16^1) + (10×16^0) 
+Example: `1A`
+
+
+= (1×16^1) + (10×16^0) 
 = 16 + 10 
 = **26**
 
@@ -170,7 +177,8 @@ Example: `1A` = (1×16^1) + (10×16^0)
 1. Split binary into groups of 4 (from right).
 2. Convert each group to hexadecimal.
 
-Example: `11010110` 
+Example: `11010110`
+`11010110`=1101|0110
 → `1101` 
 = D,
 `0110` 
