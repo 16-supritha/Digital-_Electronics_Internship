@@ -115,19 +115,7 @@ E -> = (15×16^0)
 
 ---
 
-## 3. Conversions Between Number Systems
 
-### A. Binary to Decimal
-1. Write the binary number.
-2. Multiply each digit by 2^position (from right to left).
-3. Add the results.
-
-Example:  
-`1101` = (1×2^3) + (1×2^2) + (0×2^1) + (1×2^0) 
-= 8 + 4 + 0 + 1
-= **13**
-
----
 
 ## 3. Conversions Between Number Systems
 
