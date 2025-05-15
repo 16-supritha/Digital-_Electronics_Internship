@@ -129,117 +129,161 @@ Example:
 
 ---
 
-### B. Decimal to Binary
-1. Divide the number by 2.
-2. Write down the remainder.
-3. Repeat until the result is 0.
-4. Read remainders from bottom to top.
+## 3. Conversions Between Number Systems
 
-Example: 13  
-13 ÷ 2 = 6 remainder 1  
-6 ÷ 2 = 3 remainder 0  
-3 ÷ 2 = 1 remainder 1  
-1 ÷ 2 = 0 remainder 1  
-**Binary: 1101**
+---
+
+### A. Binary to Decimal
+
+**Steps:**
+1. Write the binary number.
+2. Multiply each digit by 2ⁿ (where n is the position from right, starting at 0).
+3. Add the results.
+
+**Example:**  
+`1101`
+
+= (1 × 2³)  
++ (1 × 2²)  
++ (0 × 2¹)  
++ (1 × 2⁰)  
+= 8 + 4 + 0 + 1  
+= **13 (Decimal)**
+
+---
+
+### B. Decimal to Binary
+
+**Steps:**
+1. Divide the number by 2.
+2. Record the remainder.
+3. Repeat until the quotient is 0.
+4. Read the remainders from bottom to top.
+
+**Example:** 13  
+13 ÷ 2 = 6 remainder **1**  
+6 ÷ 2 = 3 remainder **0**  
+3 ÷ 2 = 1 remainder **1**  
+1 ÷ 2 = 0 remainder **1**  
+
+**Binary:** `1101`
 
 ---
 
 ### C. Decimal to Hexadecimal
+
+**Steps:**
 1. Divide the number by 16.
 2. Write down the remainder.
-3. Repeat until the result is 0.
-4. Read remainders from bottom to top.
+3. Repeat until the quotient is 0.
+4. Read from bottom to top and convert numbers > 9 into letters A–F.
 
-Example: 254  
+**Example:** 254  
+254 ÷ 16 = 15 remainder **14 (E)**  
+15 ÷ 16 = 0 remainder **15 (F)**  
 
-
-254 ÷ 16 = 15 remainder 14 → `E`  
-15 ÷ 16 = 0 remainder 15 → `F`  
-**Hex: FE**
+**Hexadecimal:** `FE`
 
 ---
 
 ### D. Hexadecimal to Decimal
-1. Convert letters to numbers (A=10, ..., F=15).
-2. Multiply each digit by 16^position.
+
+**Steps:**
+1. Convert each hex digit to decimal.
+2. Multiply each by 16ⁿ (n starts from 0 on the right).
 3. Add the results.
 
-Example: `1A`
-
-
-= (1×16^1) + (10×16^0) 
-= 16 + 10 
-= **26**
+**Example:** `1A`  
+= (1 × 16¹)  
++ (10 × 16⁰)  
+= 16 + 10  
+= **26 (Decimal)**
 
 ---
 
 ### E. Binary to Hexadecimal
-1. Split binary into groups of 4 (from right).
-2. Convert each group to hexadecimal.
 
-Example: `11010110`
-`11010110`=1101|0110
-→ `1101` 
-= D,
-`0110` 
-= 6  
-**Hex: D6**
+**Steps:**
+1. Group binary digits into 4 from the right.
+2. Convert each group to hex.
+
+**Example:** `11010110`  
+→ 1101 | 0110  
+→ D | 6  
+
+**Hexadecimal:** `D6`
 
 ---
 
 ### F. Hexadecimal to Binary
+
+**Steps:**
 1. Convert each hex digit to 4-bit binary.
 
-Example: `2F`  
-2 = `0010`,
+**Example:** `2F`  
+2 = `0010`  
 F = `1111`  
-**Binary: 00101111**
+
+**Binary:** `00101111`
 
 ---
 
 ### G. Decimal to Octal
+
+**Steps:**
 1. Divide the decimal number by 8.
 2. Write down the remainder.
-3. Repeat until the result is 0.
-4. Read remainders from bottom to top.
+3. Repeat until quotient is 0.
+4. Read from bottom to top.
 
-Example: 100  
-100 ÷ 8 = 12 remainder 4  
-12 ÷ 8 = 1 remainder 4  
-1 ÷ 8 = 0 remainder 1  
-**Octal: 144**
+**Example:** 100  
+100 ÷ 8 = 12 remainder **4**  
+12 ÷ 8 = 1 remainder **4**  
+1 ÷ 8 = 0 remainder **1**  
+
+**Octal:** `144`
 
 ---
 
 ### H. Octal to Decimal
-1. Multiply each digit by 8^position.
+
+**Steps:**
+1. Multiply each digit by 8ⁿ (n starts from 0 on the right).
 2. Add the results.
 
-Example: `145` = (1×8^2) + (4×8^1) + (5×8^0) 
-= 64 + 32 + 5 
-= **101**
+**Example:** `145`  
+= (1 × 8²)  
++ (4 × 8¹)  
++ (5 × 8⁰)  
+= 64 + 32 + 5  
+= **101 (Decimal)**
 
 ---
 
 ### I. Binary to Octal
-1. Group binary digits into 3s from the right.
+
+**Steps:**
+1. Group binary digits in 3s from the right.
 2. Convert each group to octal.
 
-Example: `101101`
-→ `000 101 101` 
-→ `0 5 5`
-→ **Octal: 55**
+**Example:** `101101`  
+→ 000 | 101 | 101  
+→ 0 | 5 | 5  
+
+**Octal:** `55`
 
 ---
 
 ### J. Octal to Binary
+
+**Steps:**
 1. Convert each octal digit to 3-bit binary.
 
-Example: `7` 
-= `111`, 
-`4` = `100`  
-**Octal 74
-→ Binary: 111100**
+**Example:** `74`  
+7 = `111`  
+4 = `100`  
+
+**Binary:** `111100`
 
 ---
 ## Importance of Number Systems in Digital Systems
