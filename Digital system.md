@@ -260,9 +260,8 @@ The OR gate outputs HIGH (1) if at least one input is HIGH. It performs a logica
 
 **Symbol:**
 ```
-  A ----|>   
-        |>O---- Output (A OR B)
-  B ----|>   
+  ![image](https://github.com/user-attachments/assets/f28a85ff-f485-4797-9208-147a4ccc13fd)
+ 
 ```
 
 **Boolean Function:**
@@ -292,8 +291,7 @@ The NOT gate, or inverter, outputs the opposite of the input signal. It changes 
 
 **Symbol:**
 ```
-![NOT Gate](https://github.com/16-supritha/Digital-_Electronics_Internship/blob/b603f1f72208815c54bad21a5cb0b3010dff0d65/not%20gate.png)
-```
+![NOTGate](https://github.com/16-supritha/Digital-_Electronics_Internship/blob/3afe1e87947a8aa19fa0f6dc30adabe74ead265a/not%20gate.png)
 
 **Boolean Function:**
 ```
@@ -408,10 +406,5 @@ Output = (A ⊕ B)'
 
 ---
 
-## License
-MIT License
-
-
-I've added 2–3 line descriptions of each gate's function. Let me know if you'd like to include logic gate simulation code in Python, digital design languages, or interactive visuals.
 
 
