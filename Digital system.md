@@ -1,6 +1,5 @@
-# Digital Electronics Documentation
+# DIGITAL ELECTRONICS
 
-This repository contains educational content on **Digital Electronics**, covering fundamental concepts such as digital signals, logic levels, and real-world applications.
 
 ## Table of Contents
 
@@ -75,7 +74,9 @@ Logic levels refer to voltage ranges used to represent digital values:
 - **Each position** = power of 2  
 
 Example:  
-`1011` = (1×2^3) + (0×2^2) + (1×2^1) + (1×2^0) = 8 + 0 + 2 + 1 = **11 (Decimal)**
+`1011` = (1×2^3) + (0×2^2) + (1×2^1) + (1×2^0) 
+= 8 + 0 + 2 + 1
+= **11 (Decimal)**
 
 ---
 
@@ -84,7 +85,9 @@ Example:
 - **Each position** = power of 10  
 
 Example:  
-`253` = (2×10^2) + (5×10^1) + (3×10^0) = 200 + 50 + 3 = **253 (Decimal)**
+`253` = (2×10^2) + (5×10^1) + (3×10^0) 
+= 200 + 50 + 3 
+= **253 (Decimal)**
 
 ---
 
@@ -93,7 +96,9 @@ Example:
 - **Each position** = power of 8  
 
 Example:  
-`145` = (1×8^2) + (4×8^1) + (5×8^0) = 64 + 32 + 5 = **101 (Decimal)**
+`145` = (1×8^2) + (4×8^1) + (5×8^0) 
+= 64 + 32 + 5 
+= **101 (Decimal)**
 
 ---
 
@@ -102,7 +107,9 @@ Example:
 - **Each position** = power of 16  
 
 Example:  
-`2F` = (2×16^1) + (15×16^0) = 32 + 15 = **47 (Decimal)**
+`2F` = (2×16^1) + (15×16^0) 
+= 32 + 15 
+= **47 (Decimal)**
 
 ---
 
@@ -114,7 +121,9 @@ Example:
 3. Add the results.
 
 Example:  
-`1101` = (1×2^3) + (1×2^2) + (0×2^1) + (1×2^0) = 8 + 4 + 0 + 1 = **13**
+`1101` = (1×2^3) + (1×2^2) + (0×2^1) + (1×2^0) 
+= 8 + 4 + 0 + 1
+= **13**
 
 ---
 
@@ -151,7 +160,9 @@ Example: 254
 2. Multiply each digit by 16^position.
 3. Add the results.
 
-Example: `1A` = (1×16^1) + (10×16^0) = 16 + 10 = **26**
+Example: `1A` = (1×16^1) + (10×16^0) 
+= 16 + 10 
+= **26**
 
 ---
 
@@ -159,7 +170,11 @@ Example: `1A` = (1×16^1) + (10×16^0) = 16 + 10 = **26**
 1. Split binary into groups of 4 (from right).
 2. Convert each group to hexadecimal.
 
-Example: `11010110` → `1101` = D, `0110` = 6  
+Example: `11010110` 
+→ `1101` 
+= D,
+`0110` 
+= 6  
 **Hex: D6**
 
 ---
@@ -168,7 +183,8 @@ Example: `11010110` → `1101` = D, `0110` = 6
 1. Convert each hex digit to 4-bit binary.
 
 Example: `2F`  
-2 = `0010`, F = `1111`  
+2 = `0010`,
+F = `1111`  
 **Binary: 00101111**
 
 ---
@@ -191,7 +207,9 @@ Example: 100
 1. Multiply each digit by 8^position.
 2. Add the results.
 
-Example: `145` = (1×8^2) + (4×8^1) + (5×8^0) = 64 + 32 + 5 = **101**
+Example: `145` = (1×8^2) + (4×8^1) + (5×8^0) 
+= 64 + 32 + 5 
+= **101**
 
 ---
 
@@ -199,15 +217,21 @@ Example: `145` = (1×8^2) + (4×8^1) + (5×8^0) = 64 + 32 + 5 = **101**
 1. Group binary digits into 3s from the right.
 2. Convert each group to octal.
 
-Example: `101101` → `000 101 101` → `0 5 5` → **Octal: 55**
+Example: `101101`
+→ `000 101 101` 
+→ `0 5 5`
+→ **Octal: 55**
 
 ---
 
 ### J. Octal to Binary
 1. Convert each octal digit to 3-bit binary.
 
-Example: `7` = `111`, `4` = `100`  
-**Octal 74 → Binary: 111100**
+Example: `7` 
+= `111`, 
+`4` = `100`  
+**Octal 74
+→ Binary: 111100**
 
 ---
 ## Importance of Number Systems in Digital Systems
@@ -239,7 +263,7 @@ Output = A * B
 ```
 
 **Truth Table:**
-| A | B | Output |
+|  INP A |  INP B | Output Y |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   0    |
@@ -270,7 +294,7 @@ Output = A + B
 ```
 
 **Truth Table:**
-| A | B | Output |
+| INPA |INP B | Output Y |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
@@ -299,7 +323,7 @@ Output = A'
 ```
 
 **Truth Table:**
-| A | Output |
+|   A | Output  |
 |---|--------|
 | 0 |   1    |
 | 1 |   0    |
@@ -321,7 +345,7 @@ Output = (A * B)'
 ```
 
 **Truth Table:**
-| A | B | Output |
+| INPA | INPB | Output Y |
 |---|---|--------|
 | 0 | 0 |   1    |
 | 0 | 1 |   1    |
@@ -345,7 +369,7 @@ Output = (A + B)'
 ```
 
 **Truth Table:**
-| A | B | Output |
+| INP A |INP  B | Output Y |
 |---|---|--------|
 | 0 | 0 |   1    |
 | 0 | 1 |   0    |
@@ -369,7 +393,7 @@ Output = A ⊕ B
 ```
 
 **Truth Table:**
-| A | B | Output |
+| INP A | INP B | Output Y |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
@@ -393,7 +417,7 @@ Output = (A ⊕ B)'
 ```
 
 **Truth Table:**
-| A | B | Output |
+| INP A |INP B | Output Y|
 |---|---|--------|
 | 0 | 0 |   1    |
 | 0 | 1 |   0    |
